@@ -32,15 +32,15 @@ const TrafficLight = () => {
         <div className="traffic-light-container">
             <div className="traffic-light-pole"></div>
             <div className="traffic-light-box">
-                {/*  Rojo */}
+ 
                 <div
                     className={`light red-light ${color === "red" ? "glow" : ""}`}
                 ></div>
-                {/*  Amarillo */}
+    
                 <div
                     className={`light yellow-light ${color === "yellow" ? "glow" : ""}`}
                 ></div>
-                {/*  Verde */}
+    
                 <div
                     className={`light green-light ${color === "green" ? "glow" : ""}`}
                 ></div>
